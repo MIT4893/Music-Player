@@ -1,0 +1,16 @@
+{
+    "dark": {
+        "bg":"#2f3640",
+        "fg":"white",
+        "playback": {
+            "bg":"#353b48",
+            "fg":"white"
+        },
+        "button": {
+            "bg":"#718093",
+            "fg":"white",
+            "relief": "flat",
+            "bd":0
+        }
+    }
+}

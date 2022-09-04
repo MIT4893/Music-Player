@@ -1,0 +1,16 @@
+{
+    "dark": {
+        "next_track": {
+            "path":"./imgs/next_icon_128295.png",
+            "resolution":"512x512"
+        },
+        "previous_track": {
+            "path":"./imgs/previous_icon_128297.png",
+            "resolution":"512x512"
+        },
+        "back": {
+            "path":"./imgs/previous_icon-icons.com_69318.png",
+            "resolution":"32x32"
+        }
+    }
+}

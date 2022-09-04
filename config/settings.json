@@ -1,0 +1,7 @@
+{
+	"UI Color":"dark",
+	"dir":"",
+	"icon":"./imgs/icon.ico",
+	"theme_path":"./config/color_theme.json",
+	"images_path":"./config/images.json"
+}
