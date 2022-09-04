@@ -18,7 +18,7 @@ class MusicPlayer:
         if os.path.exists(path):
             self.__player.music.load(path)
             self.__path = path
-            self.__player.music.play()
+            self.__player.music.play(-1)
 
     def pause(self) -> None:
         self.__player.music.pause()

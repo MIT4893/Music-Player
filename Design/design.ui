@@ -31,7 +31,7 @@
       </property>
       <layout class="QGridLayout" name="gridLayout_4">
        <item row="0" column="1">
-        <widget class="QTreeWidget" name="TREE_MusicList">
+        <widget class="QTreeWidget" name="TREE_musicList">
          <column>
           <property name="text">
            <string>Music Name</string>
@@ -86,6 +86,9 @@
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="2" column="3" alignment="Qt::AlignLeft">
         <widget class="QPushButton" name="BT_nextTrack">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -101,12 +104,23 @@
          <property name="text">
           <string/>
          </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/playback/Imgs/next_icon_128295.png</normalon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
         </widget>
        </item>
        <item row="2" column="1" alignment="Qt::AlignRight">
         <widget class="QPushButton" name="BT_prevTrack">
          <property name="enabled">
-          <bool>true</bool>
+          <bool>false</bool>
          </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
@@ -129,10 +143,24 @@
          <property name="text">
           <string/>
          </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/playback/Imgs/previous_icon_128297.png</normalon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
+         </property>
         </widget>
        </item>
        <item row="2" column="2">
         <widget class="QPushButton" name="BT_play">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -147,6 +175,17 @@
          </property>
          <property name="text">
           <string/>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normalon>:/playback/Imgs/pause-button.png</normalon>
+          </iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>40</width>
+           <height>40</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -207,6 +246,8 @@
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="../resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
